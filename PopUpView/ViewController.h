@@ -2,14 +2,14 @@
 //  ViewController.h
 //  PopUpView
 //
-//  Created by Marcel  on 3/22/17.
-//  Copyright © 2017 Marcel . All rights reserved.
-//
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController 
 
+@property (weak, nonatomic) IBOutlet UITextField *firstTextFiled;
+@property (weak, nonatomic) IBOutlet UITextField *secondTextField;
+@property (weak, nonatomic) IBOutlet UITextField *thirdTextField;
 
 @end
 
